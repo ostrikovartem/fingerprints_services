@@ -1,9 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Responsibility from './Components/Responsibility/Responsibility'
+import Auth from './Components/Auth/Auth'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+        <Auth />
+        <Responsibility />
     </div>
   );
 }
